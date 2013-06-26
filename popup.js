@@ -242,7 +242,7 @@ define(function(require, exports, module) {
                 }
 
                 //this.options.isCentered ? this.doEffects("close") : this.popupLayer.remove();
-                $(this).trigger("onCloseCallBack"); //执行关闭以后的回掉
+                $(this).trigger("onCloseCallBack"); //执行关闭以后的回调
             },
             mouseDown: function(e) { //触发拖动方法
                 this.options.posX = e.clientX - parseInt(this.popupLayer[0].style.left);
