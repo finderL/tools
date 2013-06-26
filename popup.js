@@ -1,3 +1,5 @@
+// author: liubei
+// email: liubei0528@gmail.com
 // 功能描述：弹出层
 // 依赖jquery
 // 必填参数 trigger(触发元素) popupBlk（弹出内容id/类名）
